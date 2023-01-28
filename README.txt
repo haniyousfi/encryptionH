@@ -4,6 +4,7 @@ producer: heni yousfi
 these was 2 script that makes u capable to encrypt all the data on system linux the local_encrypt use many keys , for every directory there
 is a keylogger that make the operation of encryption localy .Perhaps the gloabl_encryption use only a key_logger for every single file on the 
 system and be more efficient that the other one
+it also countain a script that output locations of all directories in ur system
 
 *requirement:
 --works only in linux os 
