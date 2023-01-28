@@ -3,6 +3,7 @@ def runfiles():
 	import sys 
 	#show path
 	import subprocess
+	subprocess.run(["cd"], capture_output = True).stdout.decode()
 	pwd= subprocess.run(["pwd"], capture_output = True).stdout.decode()
 	path= subprocess.run(["ls","-R"], capture_output = True).stdout.decode()
 	with open("allfiles.txt","w") as allfiles:
